@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="MVM2023_Nov" GUID="{44DA0C7D-C24C-4445-B482-675C155B00DB}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{A05D50BF-628A-4185-99A1-9E8A190D59DE}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../ProjectFolder/MetroidVaniaJam2023/GeneratedSoundBanks"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{27577C1B-C40E-4BF7-9CDE-46BC9B51B2DD}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{006F283E-C0D1-8C71-9769-E2EE0529C2B3}</FileHash>
+</ProjectInfo>

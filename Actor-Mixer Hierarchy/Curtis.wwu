@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Curtis" ID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{96DD380F-2B1D-4FBE-8121-58F48AAD6B51}" ShortID="658853558"/>
+				<Folder Name="Enemies" ID="{36B87C8A-EA19-4F3A-9890-22E41144AFDF}" ShortID="74390224"/>
+				<Folder Name="Environment" ID="{C74646FC-943B-4894-9416-37D36EA5EF92}" ShortID="187504146"/>
+				<Folder Name="Testing" ID="{6BD6CA52-4343-4DB7-AED8-DFBA5121B29C}" ShortID="600787447">
+					<ChildrenList>
+						<Sound Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" ShortID="983697958">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RARE-DeepSpaceTextures_fx_oneshot_siren_beeps_verb_02" ID="{EEE2E3A3-41A2-4139-B36F-B7CDAE4B0F97}">
+									<Language>SFX</Language>
+									<AudioFile>RARE-DeepSpaceTextures_fx_oneshot_siren_beeps_verb_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191468648"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RARE-DeepSpaceTextures_fx_oneshot_siren_beeps_verb_02" ID="{EEE2E3A3-41A2-4139-B36F-B7CDAE4B0F97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

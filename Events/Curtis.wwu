@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Curtis" ID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{2842819A-8F7B-44B4-A1E0-64BA43C8DEF5}" ShortID="966872813">
+					<ChildrenList>
+						<Event Name="Test_Beep" ID="{061E28DF-BD22-4044-B05E-0A524444A7C0}">
+							<ChildrenList>
+								<Action Name="" ID="{B48DD85C-419D-426C-A8F8-7F99D8AFEEA5}" ShortID="45149620">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{C1636304-84A0-476D-B724-BA50621B11CE}" ShortID="422768958"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
