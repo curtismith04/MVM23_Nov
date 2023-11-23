@@ -6,6 +6,12 @@
 				<SoundBank Name="C_SFX" ID="{87161B0A-7378-4836-9A44-709E0442D844}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Test_Beep" ID="{061E28DF-BD22-4044-B05E-0A524444A7C0}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLAY_TELE_ENTER" ID="{5A7B7530-30AD-42A3-AE6D-A168B1125F1B}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLAY_PLYR_JUMP" ID="{B8DF2EB2-DF18-4493-853E-22D4C59AA959}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLAY_PLYR_PRIMARY" ID="{F18B760C-D50F-44EB-957E-AE48F571AF6D}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLAY_PLYR_SECONDARY" ID="{DD415866-04D0-4760-887B-B004131FA3BB}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AreaMusic" ID="{11825D2D-2A28-4ABA-BA8B-72217F039193}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLAY_PLYR_FS" ID="{44EE49D4-0D05-4B08-9893-A59ED3B4567F}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

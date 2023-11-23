@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D281B84D-3D95-4564-920A-DCD02AD78654}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Curtis" ID="{D281B84D-3D95-4564-920A-DCD02AD78654}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Daniel" ID="{24DA5D59-9E41-4DAD-B943-4470CE23565E}" PersistMode="Reference"/>
+				<SoundcasterSession Name="Player" ID="{13D74760-72B3-4156-86BE-9DF262C2BDAD}">
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="default" ID="{C71DCB49-79D9-45D2-B52F-630233394C0F}"/>
+						<CurrentSwitchRef Name="A1" ID="{C166E286-F178-43CC-B1E4-4BE015CADEEE}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

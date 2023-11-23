@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{086FDDB4-8AD2-429F-8448-BF8B5B9116DA}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Curtis" ID="{086FDDB4-8AD2-429F-8448-BF8B5B9116DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SurfaceType" ID="{7009FFBA-6AAB-432B-94B8-88647AC886FB}">
+					<ChildrenList>
+						<Switch Name="default" ID="{C71DCB49-79D9-45D2-B52F-630233394C0F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AreaInLevel" ID="{A7460030-692A-4586-B635-2D80DF9E1DB7}">
+					<ChildrenList>
+						<Switch Name="A1" ID="{C166E286-F178-43CC-B1E4-4BE015CADEEE}"/>
+						<Switch Name="B1" ID="{8433B590-A99C-4509-9BCB-FAD8DCE8768E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -16,9 +16,41 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="PLAY_PLYR_FS" ID="{44EE49D4-0D05-4B08-9893-A59ED3B4567F}">
+							<ChildrenList>
+								<Action Name="" ID="{A8BB8933-ED38-418F-9835-0A34DE8A338A}" ShortID="613303927">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Plyr_FS_Default_01" ID="{D291C89F-B1E2-48E3-AFCE-B599AEF842AF}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PLAY_PLYR_JUMP" ID="{B8DF2EB2-DF18-4493-853E-22D4C59AA959}"/>
+						<Event Name="PLAY_PLYR_PRIMARY" ID="{F18B760C-D50F-44EB-957E-AE48F571AF6D}"/>
+						<Event Name="PLAY_TELE_ENTER" ID="{5A7B7530-30AD-42A3-AE6D-A168B1125F1B}"/>
+						<Event Name="PLAY_PLYR_SECONDARY" ID="{DD415866-04D0-4760-887B-B004131FA3BB}"/>
+						<Event Name="PLAY_STNC_M_OPEN" ID="{89AE72AC-F7CB-4319-BDEF-6D7EEB38B453}"/>
+						<Event Name="PLAY_STNC_M_CLOSE" ID="{75BC7F73-6055-4D07-A949-65B7C7D24FAA}"/>
+						<Event Name="PLAY_TELE_ERROR" ID="{4889EB5F-2D0E-49D3-BC09-1C7B9D5B7EC7}"/>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Music" ID="{C1636304-84A0-476D-B724-BA50621B11CE}" ShortID="422768958"/>
+				<Folder Name="Music" ID="{C1636304-84A0-476D-B724-BA50621B11CE}" ShortID="422768958">
+					<ChildrenList>
+						<Event Name="Play_AreaMusic" ID="{11825D2D-2A28-4ABA-BA8B-72217F039193}">
+							<ChildrenList>
+								<Action Name="" ID="{7553C519-C261-4C26-A784-89D7655E756B}" ShortID="631118057">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Area1" ID="{C25B28FB-1DDA-408F-8EA5-F87D94536545}" WorkUnitID="{BE6A8FA9-D4C8-4127-8AA6-1398AD334BC8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

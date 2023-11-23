@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E7AE736-F7C8-4275-8E0E-306BDAF0CE00}" SchemaVersion="119">
+	<MixingSessions>
+		<WorkUnit Name="Curtis" ID="{8E7AE736-F7C8-4275-8E0E-306BDAF0CE00}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Player" ID="{C9D427F9-53E6-4355-9BCE-378A08B2449A}">
+					<ObjectList>
+						<ObjectRef Name="SFX_Plyr_FS_Default_01" ID="{D291C89F-B1E2-48E3-AFCE-B599AEF842AF}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+						<ObjectRef Name="AreaMusic" ID="{3E026FBB-1DC8-46B3-BC0A-11B08FF2A6B5}" WorkUnitID="{BE6A8FA9-D4C8-4127-8AA6-1398AD334BC8}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
