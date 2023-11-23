@@ -10,11 +10,143 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="G" ID="{AFBC10B4-AB2A-4386-9344-00E43BC259AF}" WorkUnitID="{086FDDB4-8AD2-429F-8448-BF8B5B9116DA}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="WeaponType" ID="{87F6FAF6-3B5F-43D3-B564-9912E4D112BB}" WorkUnitID="{086FDDB4-8AD2-429F-8448-BF8B5B9116DA}"/>
+								</Reference>
 							</ReferenceList>
-							<GroupingInfo/>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Plyr_Wpn_R" ID="{5A5C891B-A3B7-4FE9-BACA-01C1F09B6751}" ShortID="231632824">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Plyr_Wpn_G" ID="{D4BECF26-EC37-4D9A-8D6D-B9584F781421}" ShortID="565566375">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Plyr_FS_Default_02" ID="{566DDDBB-E580-416F-AAE3-1F6DB10776B6}" ShortID="298888389">
+											<PropertyList>
+												<Property Name="OutputBusVolume" Type="Real64">
+													<ValueList>
+														<Value>-30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D6693295-0B74-477B-9587-1F1373F7C7BC}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{31B34C8F-5232-4C6F-BC96-31D09165D8AE}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Plyr_FS_Default_01" ID="{8DF0B78C-A077-4B1D-87E4-0D86BB631D8B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Plyr_FS_Default_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="54413568"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Plyr_FS_Default_01" ID="{8DF0B78C-A077-4B1D-87E4-0D86BB631D8B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Plyr_Wpn_B" ID="{A9A7FDB5-052D-48A8-AECF-55110B149D44}" ShortID="180228181">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Plyr_Wpn_P" ID="{D64769F7-0972-4D86-80B7-0356A0B3D474}" ShortID="864759165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7AD105C-E2F9-4D45-AEB7-E4FEEB373375}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{31DBFEAB-122F-47E4-8C3D-A75DC2BC8777}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Plyr_Wpn_R" ID="{5A5C891B-A3B7-4FE9-BACA-01C1F09B6751}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Plyr_Wpn_G" ID="{D4BECF26-EC37-4D9A-8D6D-B9584F781421}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Plyr_Wpn_B" ID="{A9A7FDB5-052D-48A8-AECF-55110B149D44}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Plyr_Wpn_P" ID="{D64769F7-0972-4D86-80B7-0356A0B3D474}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="R" ID="{58A6332B-EF99-4D84-A53D-735B4220277F}"/>
+										<ItemList>
+											<ItemRef Name="Plyr_Wpn_R" ID="{5A5C891B-A3B7-4FE9-BACA-01C1F09B6751}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+										<ItemList>
+											<ItemRef Name="Plyr_Wpn_B" ID="{A9A7FDB5-052D-48A8-AECF-55110B149D44}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="P" ID="{65F29D61-987B-4D32-B79D-B1036A3FF65E}"/>
+										<ItemList>
+											<ItemRef Name="Plyr_Wpn_P" ID="{D64769F7-0972-4D86-80B7-0356A0B3D474}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="G" ID="{AFBC10B4-AB2A-4386-9344-00E43BC259AF}"/>
+										<ItemList>
+											<ItemRef Name="Plyr_Wpn_G" ID="{D4BECF26-EC37-4D9A-8D6D-B9584F781421}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
 						</SwitchContainer>
 						<Sound Name="SFX_Plyr_FS_Default_01" ID="{D291C89F-B1E2-48E3-AFCE-B599AEF842AF}" ShortID="390446276">
 							<PropertyList>

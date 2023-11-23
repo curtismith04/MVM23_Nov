@@ -3,15 +3,12 @@
 	<Switches>
 		<WorkUnit Name="Curtis" ID="{086FDDB4-8AD2-429F-8448-BF8B5B9116DA}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="SurfaceType" ID="{7009FFBA-6AAB-432B-94B8-88647AC886FB}">
+				<SwitchGroup Name="WeaponType" ID="{87F6FAF6-3B5F-43D3-B564-9912E4D112BB}">
 					<ChildrenList>
-						<Switch Name="default" ID="{C71DCB49-79D9-45D2-B52F-630233394C0F}"/>
-					</ChildrenList>
-				</SwitchGroup>
-				<SwitchGroup Name="AreaInLevel" ID="{A7460030-692A-4586-B635-2D80DF9E1DB7}">
-					<ChildrenList>
-						<Switch Name="A1" ID="{C166E286-F178-43CC-B1E4-4BE015CADEEE}"/>
-						<Switch Name="B1" ID="{8433B590-A99C-4509-9BCB-FAD8DCE8768E}"/>
+						<Switch Name="G" ID="{AFBC10B4-AB2A-4386-9344-00E43BC259AF}"/>
+						<Switch Name="R" ID="{58A6332B-EF99-4D84-A53D-735B4220277F}"/>
+						<Switch Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+						<Switch Name="P" ID="{65F29D61-987B-4D32-B79D-B1036A3FF65E}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
