@@ -18,11 +18,85 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="PLAY_PLYR_JUMP" ID="{B8DF2EB2-DF18-4493-853E-22D4C59AA959}"/>
-								<Event Name="PLAY_PLYR_PRIMARY" ID="{F18B760C-D50F-44EB-957E-AE48F571AF6D}"/>
+								<Event Name="PLAY_PLYR_JUMP" ID="{B8DF2EB2-DF18-4493-853E-22D4C59AA959}">
+									<ChildrenList>
+										<Action Name="" ID="{D252A471-D170-4957-9ED1-7A533ADA6266}" ShortID="387275343">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Plyr_Jump_01-005" ID="{76440087-6277-4673-8958-DF5F56230443}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_PLYR_PRIMARY" ID="{F18B760C-D50F-44EB-957E-AE48F571AF6D}">
+									<ChildrenList>
+										<Action Name="" ID="{5DDF49F7-AB57-4849-90A3-CECFB34343E0}" ShortID="262675633">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyr_Weapon_Type" ID="{4A3DF12E-B826-4206-8307-2B52D0CE3AA8}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="PLAY_PLYR_SECONDARY" ID="{DD415866-04D0-4760-887B-B004131FA3BB}"/>
 								<Event Name="PLAY_TELE_ERROR" ID="{4889EB5F-2D0E-49D3-BC09-1C7B9D5B7EC7}"/>
 								<Event Name="PLAY_TELE_ENTER" ID="{5A7B7530-30AD-42A3-AE6D-A168B1125F1B}"/>
+								<Event Name="PLAY_PLYR_DASH" ID="{164C2169-7409-4005-B606-B57429EE81D0}">
+									<ChildrenList>
+										<Action Name="" ID="{DF36F81D-E915-482A-B033-C585F80BE27C}" ShortID="951317787">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Plyr_Dash_01" ID="{4B689D3B-DCA9-4FDA-9360-289D10C56A3D}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{02AFCFB1-8AD5-47F4-907E-C20EC8DFD20F}" ShortID="589283260">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Plyr_Dash_01-001" ID="{C1CEF5D3-643F-472F-AB80-C5CA971D36F3}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C6D8B3B5-DFC0-47D5-9AFD-09124ABFFF08}" ShortID="3416015">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Plyr_Dash_01-002" ID="{54EC8506-9732-4473-9EC4-56A854FC7470}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="STOP_PLYR_BEAM" ID="{078906CA-D859-45EC-8375-D04ECA462677}">
+									<ChildrenList>
+										<Action Name="" ID="{9E06DCC4-94F3-478F-8F11-07202F7ED070}" ShortID="1040446023">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Plyr_Weapon_Type" ID="{4A3DF12E-B826-4206-8307-2B52D0CE3AA8}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Testing" ID="{949DA4AA-A9B9-44E2-A475-99B6D1F23ECD}" ShortID="482924371">
@@ -52,15 +126,174 @@
 						</Folder>
 						<Folder Name="Enemies" ID="{C33F8833-FD31-444C-8FF2-A13D0EA6A8E1}" ShortID="352576513">
 							<ChildrenList>
-								<Event Name="PLAY_ENEM_SPDR_ATK" ID="{C915AAFB-EF92-49E8-AC1A-095B3E855BAE}"/>
-								<Event Name="PLAY_ENEM_SPDR_TKDMG" ID="{3DFD6242-52C2-4E57-80C3-4EE4BF35B17B}"/>
-								<Event Name="PLAY_ENEM_SPDR_DEFEAT" ID="{ABE79188-5E87-4854-A48D-C0A0B5E1F51F}"/>
-								<Event Name="PLAY_ENEM_TANK_ATK" ID="{A47A3499-E523-47D6-BD9C-827B0168E776}"/>
+								<Event Name="PLAY_ENEM_SPDR_ATK" ID="{C915AAFB-EF92-49E8-AC1A-095B3E855BAE}">
+									<ChildrenList>
+										<Action Name="" ID="{E6BB44B3-54BA-4706-B4D5-5DC6500A4CEE}" ShortID="351904943">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_SPDR_TKDMG" ID="{3DFD6242-52C2-4E57-80C3-4EE4BF35B17B}">
+									<ChildrenList>
+										<Action Name="" ID="{3E5F366A-8CA5-427D-BCCE-1225C21D2AA2}" ShortID="860463750">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_SPDR_DEFEAT" ID="{ABE79188-5E87-4854-A48D-C0A0B5E1F51F}">
+									<ChildrenList>
+										<Action Name="" ID="{29F749D5-D079-44B9-BF6A-1FE42C4640A7}" ShortID="250312359">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_TANK_ATK" ID="{A47A3499-E523-47D6-BD9C-827B0168E776}">
+									<ChildrenList>
+										<Action Name="" ID="{0D603BF9-8B59-410D-B9E9-94B96BEFFB8A}" ShortID="76774537">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Min_Tank_Shot" ID="{E28A95E2-EB37-4BFF-AF3C-B399DEC7E14B}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="PLAY_ENEM_TANK_TKDMG" ID="{0DF1664F-15FB-4A7A-99CA-2BFC79797DF0}"/>
 								<Event Name="PLAY_ENEM_TANK_DEFEAT" ID="{468D13B0-E482-4100-86BF-D477317E380C}"/>
-								<Event Name="PLAY_ENEM_FLYER_ATK" ID="{974D990A-848D-43BC-8332-AEFB5A216AFB}"/>
-								<Event Name="PLAY_ENEM_FLYER_DEFEAT" ID="{CF7C4326-C933-48EB-A156-EC84C0E95043}"/>
-								<Event Name="PLAY_ENEM_FLYER_TKDMG" ID="{21DBC9A9-E28E-46C7-A5DE-1C4A0B54A407}"/>
+								<Event Name="PLAY_ENEM_FLYER_ATK" ID="{974D990A-848D-43BC-8332-AEFB5A216AFB}">
+									<ChildrenList>
+										<Action Name="" ID="{59AC1011-3F2F-48F4-BA3D-9085F7555ADF}" ShortID="850248758">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_FLYER_DEFEAT" ID="{CF7C4326-C933-48EB-A156-EC84C0E95043}">
+									<ChildrenList>
+										<Action Name="" ID="{1F9D6C76-EAFC-4B4C-9469-7C59212FC266}" ShortID="187492957">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_FLYER_TKDMG" ID="{21DBC9A9-E28E-46C7-A5DE-1C4A0B54A407}">
+									<ChildrenList>
+										<Action Name="" ID="{2D511349-A416-46AD-8519-F90FBBD572A1}" ShortID="496348484">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Spider_FS" ID="{3BDA4071-E063-4D8C-8A27-676EF0BB5864}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{FDDA6358-03EB-4E8B-BE60-969F9DFE7C3B}" ShortID="391840092">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Test_Beep" ID="{718B2194-3A25-4457-90E7-98558E909303}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_TANK_LOOP" ID="{9752BD84-1EE1-4FC9-9573-A8586C159433}">
+									<ChildrenList>
+										<Action Name="" ID="{6F7918F3-1846-4CAE-BDBB-5665C1755DDB}" ShortID="1061378592">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Min_Tanky_Lp_01" ID="{466AD02F-BF02-47CD-8731-D19F08AE763D}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENEM_SPDR_FS" ID="{E4862624-3680-42F1-B128-CD072AD4679C}">
+									<ChildrenList>
+										<Action Name="" ID="{5D9D4C95-588D-437C-8E9A-F97250A594CE}" ShortID="477396193">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Spider_FS" ID="{3BDA4071-E063-4D8C-8A27-676EF0BB5864}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Enviro" ID="{9978B76B-9788-4D1C-A2AC-0FAEF01C670B}" ShortID="152499024">
+							<ChildrenList>
+								<Event Name="PLAY_ENV_LASER_START" ID="{4F6435C3-8B1E-40A4-A2EC-184EB3074DC1}">
+									<ChildrenList>
+										<Action Name="" ID="{C3196D50-CEB9-46E4-9568-151E37A664A4}" ShortID="705868984">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_LaserBeam_Start_01" ID="{2DBD245A-A5AA-485E-BBD6-5575A54B74AF}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E822F01F-08B7-43B0-8207-1896B7BE5FD7}" ShortID="73791189">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_LaserBeam_Lp_01" ID="{21A697AF-53A8-4CC7-BB51-07F48BAE7B78}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENV_LASER_STOP" ID="{C317C8AB-57BF-4ABA-9509-293985C75612}">
+									<ChildrenList>
+										<Action Name="" ID="{858DAFBE-7504-4183-AA54-93DFB40D6FD2}" ShortID="756805595">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeInCurve" Type="int16" Value="5"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_LaserBeam_Lp_01" ID="{21A697AF-53A8-4CC7-BB51-07F48BAE7B78}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E86FDCDD-4410-4238-A66A-AC281500A798}" ShortID="288908717">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_LaserBeam_Finish_01" ID="{216AB481-BA1A-47ED-855A-78D4752D1395}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PLAY_ENV_DOOR_OPEN" ID="{5C94B4A6-AA9E-4DB7-85C5-597820D42883}">
+									<ChildrenList>
+										<Action Name="" ID="{F6294CFE-C70C-425B-BE10-3620EF6B607B}" ShortID="584436474">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Env_Doors" ID="{C62DAA09-3BDF-47CF-B493-0F5B5923B50E}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -72,7 +305,7 @@
 								<Action Name="" ID="{7553C519-C261-4C26-A784-89D7655E756B}" ShortID="631118057">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Area1" ID="{C25B28FB-1DDA-408F-8EA5-F87D94536545}" WorkUnitID="{BE6A8FA9-D4C8-4127-8AA6-1398AD334BC8}"/>
+											<ObjectRef Name="A1-A" ID="{C25B28FB-1DDA-408F-8EA5-F87D94536545}" WorkUnitID="{BE6A8FA9-D4C8-4127-8AA6-1398AD334BC8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

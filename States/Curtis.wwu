@@ -8,6 +8,12 @@
 						<State Name="None" ID="{B7428DCB-2D12-444B-AB2C-16431DD18C27}"/>
 						<State Name="A1" ID="{FE11A217-0EFE-488C-A7A5-682BCC227853}"/>
 						<State Name="A1B" ID="{E1E375AC-585A-4D24-A1F3-B0C2BDFADC87}"/>
+						<State Name="A2" ID="{3A7B7AE5-03F3-4126-889D-08BADC7C4FD8}"/>
+						<State Name="A2B" ID="{61A8688A-11C0-4891-8A4F-F630E685A08C}"/>
+						<State Name="A3" ID="{3E704730-354B-4BE5-B583-61391001B984}"/>
+						<State Name="A3B" ID="{2F078C2E-C7D9-42B9-A418-17EBBF8C2F15}"/>
+						<State Name="A4" ID="{5FF2FA81-37AE-49BB-929E-8E6B4EC342CE}"/>
+						<State Name="A4B" ID="{61095A97-19E2-443E-A90B-40B55A7C1450}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

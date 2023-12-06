@@ -3,6 +3,8 @@
 	<ProjectInfo>
 		<Project Name="MVM2023_Nov" ID="{44DA0C7D-C24C-4445-B482-675C155B00DB}">
 			<Platforms>
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{169CF581-8196-493E-B899-7981519803E6}"/>
+				<Platform Name="Web" ReferencePlatform="Web" ID="{6B263F5B-9DA4-4727-B0D9-281A948201A5}"/>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{A05D50BF-628A-4185-99A1-9E8A190D59DE}"/>
 			</Platforms>
 			<LanguageList>
@@ -16,38 +18,67 @@
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Web"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Web">GeneratedSoundBanks\Web</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
+						<Value Platform="Web">256</Value>
+						<Value Platform="Mac">256</Value>
 					</ValueList>
 				</Property>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\ProjectFolder\MetroidVaniaJam2023\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">..\..\ProjectFolder\MetroidVaniaJam2023\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Web">..\..\ProjectFolder\MetroidVaniaJam2023\GeneratedSoundBanks\Web\</Value>
+						<Value Platform="Mac">..\..\ProjectFolder\MetroidVaniaJam2023\GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Web"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Web"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Web"></Value>
+						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
+						<Value Platform="Web"></Value>
+						<Value Platform="Mac"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Windows">-80</Value>
+						<Value Platform="Web">-80</Value>
+						<Value Platform="Mac">-80</Value>
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2023.1|Build=8367|VersionName=v2023.1.0|Config=Release"/>

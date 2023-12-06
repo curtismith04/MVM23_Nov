@@ -10,8 +10,31 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="SFX" ID="{31B34C8F-5232-4C6F-BC96-31D09165D8AE}"/>
-						<Bus Name="Music" ID="{34D720AA-F6D7-438C-8BC6-0574DE9357BC}"/>
+						<Bus Name="SFX" ID="{31B34C8F-5232-4C6F-BC96-31D09165D8AE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Enemies" ID="{244D64DE-E55E-4124-83B4-80B7FE56033A}">
+									<ChildrenList>
+										<Bus Name="Spider" ID="{45DD96C2-80AF-4D08-B5A9-C9651C207F7B}"/>
+										<Bus Name="Tank" ID="{0FB429B2-846C-423D-9521-C1FD195BADD9}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{34D720AA-F6D7-438C-8BC6-0574DE9357BC}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

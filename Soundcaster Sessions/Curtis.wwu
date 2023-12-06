@@ -5,6 +5,117 @@
 			<ChildrenList>
 				<WorkUnit Name="Daniel" ID="{24DA5D59-9E41-4DAD-B943-4470CE23565E}" PersistMode="Reference"/>
 				<SoundcasterSession Name="Player" ID="{13D74760-72B3-4156-86BE-9DF262C2BDAD}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PLAY_PLYR_FS" ID="{44EE49D4-0D05-4B08-9893-A59ED3B4567F}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Plyr_FS_Default_01" ID="{D291C89F-B1E2-48E3-AFCE-B599AEF842AF}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Plyr_Jump_01-005" ID="{76440087-6277-4673-8958-DF5F56230443}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Plyr_Dash_01-002" ID="{54EC8506-9732-4473-9EC4-56A854FC7470}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Weapon_Type" ID="{4A3DF12E-B826-4206-8307-2B52D0CE3AA8}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_G" ID="{D4BECF26-EC37-4D9A-8D6D-B9584F781421}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_R" ID="{5A5C891B-A3B7-4FE9-BACA-01C1F09B6751}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_B" ID="{A9A7FDB5-052D-48A8-AECF-55110B149D44}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_P" ID="{D64769F7-0972-4D86-80B7-0356A0B3D474}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{B7428DCB-2D12-444B-AB2C-16431DD18C27}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Stances" ID="{FBB99769-ADE7-4C19-8A72-CFD0714A5B6E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Plyr_Weapon_Type" ID="{4A3DF12E-B826-4206-8307-2B52D0CE3AA8}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PLYR_PRIMARY" ID="{F18B760C-D50F-44EB-957E-AE48F571AF6D}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_G" ID="{D4BECF26-EC37-4D9A-8D6D-B9584F781421}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_R" ID="{5A5C891B-A3B7-4FE9-BACA-01C1F09B6751}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_B" ID="{A9A7FDB5-052D-48A8-AECF-55110B149D44}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Plyr_Wpn_P" ID="{D64769F7-0972-4D86-80B7-0356A0B3D474}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{B7428DCB-2D12-444B-AB2C-16431DD18C27}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Enviro" ID="{039EBD67-DFE3-4716-89AB-79DBA78D6EAB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PLAY_ENV_LASER_START" ID="{4F6435C3-8B1E-40A4-A2EC-184EB3074DC1}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_ENV_LASER_STOP" ID="{C317C8AB-57BF-4ABA-9509-293985C75612}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Env_Doors" ID="{C62DAA09-3BDF-47CF-B493-0F5B5923B50E}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="A4" ID="{5FF2FA81-37AE-49BB-929E-8E6B4EC342CE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{F16639A2-F24D-467A-AAC8-A119F9BA5EAA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PLAY_MUSIC" ID="{11825D2D-2A28-4ABA-BA8B-72217F039193}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DF3CDE3B-6DF5-45C2-B9AE-87858209362B}" SchemaVersion="119">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{DF3CDE3B-6DF5-45C2-B9AE-87858209362B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DF3CDE3B-6DF5-45C2-B9AE-87858209362B}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Env_Laser" ID="{033234EB-ECDE-4556-AA81-A88098C0946B}">
+					<ObjectList>
+						<ObjectRef Name="Env_LaserBeam_Finish_01" ID="{216AB481-BA1A-47ED-855A-78D4752D1395}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+						<ObjectRef Name="Env_LaserBeam_Lp_01" ID="{21A697AF-53A8-4CC7-BB51-07F48BAE7B78}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+						<ObjectRef Name="Env_LaserBeam_Start_01" ID="{2DBD245A-A5AA-485E-BBD6-5575A54B74AF}" WorkUnitID="{A76AD9C4-0837-4748-98B3-C5A6930AB7D9}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>
