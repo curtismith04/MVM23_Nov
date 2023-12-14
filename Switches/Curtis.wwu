@@ -11,6 +11,14 @@
 						<Switch Name="P" ID="{65F29D61-987B-4D32-B79D-B1036A3FF65E}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="StanceSelect" ID="{9C3A8C0C-1CC0-40E9-94A9-D4873C5735E9}">
+					<ChildrenList>
+						<Switch Name="Green" ID="{EE6821A4-351B-4081-A5E7-807B4598F865}"/>
+						<Switch Name="Red" ID="{0422736B-6D5B-4F39-B432-2F65E88B106E}"/>
+						<Switch Name="Blue" ID="{B6C46C6D-0DB1-4AE3-BAA6-1A562F44BD39}"/>
+						<Switch Name="Purple" ID="{04257E71-D491-42DE-A439-C56F8BDABC0F}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

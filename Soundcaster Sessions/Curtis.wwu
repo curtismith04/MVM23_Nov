@@ -101,12 +101,25 @@
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Vol_Main" ID="{23B97745-5274-4278-95B6-C769A1363518}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Vol_SFX" ID="{2FA96BB6-DCF7-4B14-B104-4F78EC765154}"/>
+							<Value>1.61969217893168E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Vol_Music" ID="{4A1420F5-9380-4E7E-A499-D897E795E145}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="A4" ID="{5FF2FA81-37AE-49BB-929E-8E6B4EC342CE}"/>
+						<CurrentStateRef Name="None" ID="{B7428DCB-2D12-444B-AB2C-16431DD18C27}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+						<CurrentSwitchRef Name="G" ID="{AFBC10B4-AB2A-4386-9344-00E43BC259AF}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{F16639A2-F24D-467A-AAC8-A119F9BA5EAA}">
@@ -114,6 +127,76 @@
 						<Module>
 							<ObjectRef Name="PLAY_MUSIC" ID="{11825D2D-2A28-4ABA-BA8B-72217F039193}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Vol_Main" ID="{23B97745-5274-4278-95B6-C769A1363518}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Vol_Music" ID="{4A1420F5-9380-4E7E-A499-D897E795E145}"/>
+							<Value>-36</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Menu" ID="{D33DE049-272D-4A64-B2EF-DA12528A5836}"/>
+						<CurrentStateRef Name="None" ID="{2D92F78B-65AE-441D-8445-59EB4A082798}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Blue" ID="{B6C46C6D-0DB1-4AE3-BAA6-1A562F44BD39}"/>
+						<CurrentSwitchRef Name="B" ID="{E1830C33-312B-46FB-B08B-1D0C46FED6F3}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Boss_Phasara" ID="{03B17718-1E37-4B0E-B3DF-CBBE5F8674F5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_ATK_CHARGE" ID="{27A942BB-778B-4C4E-9543-ED0987ECDBB8}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_FRBLL_STOP" ID="{D6F7C4AE-9304-4D04-8E39-4389D91C5764}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_TELE" ID="{98493AD2-4C07-48A9-844F-CCA86C81014F}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_ATK_RELEASE" ID="{FB3A6B6B-C484-4E1C-88AC-7D861312EC83}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_IDLE" ID="{A955ED20-0159-456E-900A-338977D3E403}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_TKDMG" ID="{A49373F0-986A-40E4-B5EB-FA3C7E3FD929}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_DEFEAT" ID="{B39F4D10-33FD-4E6C-A974-6AC3E7DFF1FB}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_MOVE_START" ID="{F9B9A839-8801-432D-AA30-06DAC8E8A8A8}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_DODGE" ID="{4C63630A-6A0B-472C-9732-4E653D1E7D1C}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_MOVE_STOP" ID="{A733FB5A-72A5-450C-A284-B3DC8B1AD273}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_FRBLL_START" ID="{64DD6C6F-06C8-460B-8BFA-DC82BC7AF3F4}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PLAY_PHPRM_STUN" ID="{73E64CC9-B9A2-4C83-B3C2-7E7014F8D031}" WorkUnitID="{896E1523-C12B-429F-BFE9-05FA408B6F3D}"/>
+							<Position X="4" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

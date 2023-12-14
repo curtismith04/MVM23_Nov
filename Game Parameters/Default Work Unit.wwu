@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{28736CC1-2421-4F67-BE5E-016BAF75D54F}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{28736CC1-2421-4F67-BE5E-016BAF75D54F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{28736CC1-2421-4F67-BE5E-016BAF75D54F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Vol_Main" ID="{23B97745-5274-4278-95B6-C769A1363518}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Vol_SFX" ID="{2FA96BB6-DCF7-4B14-B104-4F78EC765154}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Vol_Music" ID="{4A1420F5-9380-4E7E-A499-D897E795E145}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

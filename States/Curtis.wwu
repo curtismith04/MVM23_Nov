@@ -7,13 +7,24 @@
 					<ChildrenList>
 						<State Name="None" ID="{B7428DCB-2D12-444B-AB2C-16431DD18C27}"/>
 						<State Name="A1" ID="{FE11A217-0EFE-488C-A7A5-682BCC227853}"/>
-						<State Name="A1B" ID="{E1E375AC-585A-4D24-A1F3-B0C2BDFADC87}"/>
+						<State Name="A1Boss" ID="{E1E375AC-585A-4D24-A1F3-B0C2BDFADC87}"/>
 						<State Name="A2" ID="{3A7B7AE5-03F3-4126-889D-08BADC7C4FD8}"/>
-						<State Name="A2B" ID="{61A8688A-11C0-4891-8A4F-F630E685A08C}"/>
+						<State Name="A2Boss" ID="{61A8688A-11C0-4891-8A4F-F630E685A08C}"/>
 						<State Name="A3" ID="{3E704730-354B-4BE5-B583-61391001B984}"/>
-						<State Name="A3B" ID="{2F078C2E-C7D9-42B9-A418-17EBBF8C2F15}"/>
+						<State Name="A3Boss" ID="{2F078C2E-C7D9-42B9-A418-17EBBF8C2F15}"/>
 						<State Name="A4" ID="{5FF2FA81-37AE-49BB-929E-8E6B4EC342CE}"/>
-						<State Name="A4B" ID="{61095A97-19E2-443E-A90B-40B55A7C1450}"/>
+						<State Name="A4Boss" ID="{61095A97-19E2-443E-A90B-40B55A7C1450}"/>
+						<State Name="Menu" ID="{D33DE049-272D-4A64-B2EF-DA12528A5836}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PhaseraFight" ID="{D4980A00-9C77-4DB0-A4BF-32C9F5FE802D}">
+					<ChildrenList>
+						<State Name="None" ID="{2D92F78B-65AE-441D-8445-59EB4A082798}"/>
+						<State Name="Intro" ID="{76706F4E-F18A-4C90-BDA6-C5163F23E92D}"/>
+						<State Name="Stage1" ID="{58B5B869-4D44-4F48-A2FE-0AECA84CBBB8}"/>
+						<State Name="Stage3" ID="{B3A56B03-78F8-4E87-86CA-A25C52F273CB}"/>
+						<State Name="Stage2" ID="{A0B03121-FC9C-4ED5-ACAC-C87FC14A5051}"/>
+						<State Name="Alternate" ID="{7D4AEA42-F85C-40A9-8F3C-FA6A5CE7BABD}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
